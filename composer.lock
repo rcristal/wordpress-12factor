@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1db31f9943b87bd616af341de65523bf",
-    "content-hash": "2f2e570976506c3830f7b6f793603f08",
+    "hash": "efdf46d98fd67519ecb3119efa208f44",
+    "content-hash": "807e1c8dac4632d1ef48b2e6fc0e7cd3",
     "packages": [
         {
             "name": "composer/composer",
@@ -1492,6 +1492,26 @@
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
         },
         {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
             "name": "wpackagist-theme/twentysixteen",
             "version": "1.2",
             "source": {
@@ -1502,7 +1522,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/twentysixteen.1.2.zip",
-                "reference": null,
+                "reference": "1.2",
                 "shasum": null
             },
             "require": {
